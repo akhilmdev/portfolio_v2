@@ -1,8 +1,23 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  width: 100%;
+}
+
+body[data-theme="light"] {
+  --colors-header-bg: #f8f8f8;
+  --colors-header-text: #1e1e1e;
+  --color-header-border: #000000;
+  --color-footer-bg: #007acc;
+}
+
+body[data-theme="dark"] {
+  --colors-header-bg: #3c3c3c;
+  --colors-header-text: #cccccc;
+  --color-header-border: #cccccc33;
+  --color-icon: #cccccc;
+  --color-footer-bg: #007acc;
+  --colors-footer-text: #ffffff;
+  --colors-footer-remote-bg: #16825d;
 }
 
 .logo {
