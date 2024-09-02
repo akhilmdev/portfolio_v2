@@ -18,6 +18,16 @@ body[data-theme="dark"] {
   --color-footer-bg: #007acc;
   --colors-footer-text: #ffffff;
   --colors-footer-remote-bg: #16825d;
+  --colors-side-bar-bg: #333333;
+  --colors-icon-inactive: #ffffff66;
+  --colors-side-bar-container-bg: #252526;
+  --colors-top-tab-bg: #1e1e1e;
+  --color-top-tab-text: #ffffff;
+  --color-top-tab-border: #454545;
+  --color-side-bar-border: #454545;
+  --color-top-tabs-bg: #252526;
+  --color-content-bg: #1e1e1e;
+  --color-scroll: #454545;
 }
 
 .logo {

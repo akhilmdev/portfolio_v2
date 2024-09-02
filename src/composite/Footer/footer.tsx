@@ -1,13 +1,16 @@
 import {
   FooterWrapper,
+  LayoutWrapper,
   LeftDetails,
   LeftWrapper,
+  NotificationWrapper,
   RemortWrapper,
   RightWrapper,
   TextWrapper,
 } from "./footer.style";
 import Remote from "../../assets/icons/remote.svg?react";
 import SourceControl from "../../assets/icons/source-control.svg?react";
+import Bell from "../../assets/icons/bell.svg?react";
 
 const Footer: React.FC = () => {
   return (
@@ -22,7 +25,12 @@ const Footer: React.FC = () => {
         </LeftDetails>
       </LeftWrapper>
 
-      <RightWrapper>right</RightWrapper>
+      <RightWrapper>
+        <LayoutWrapper>Layout: US</LayoutWrapper>
+        <NotificationWrapper>
+          <Bell className="icon" />
+        </NotificationWrapper>
+      </RightWrapper>
     </FooterWrapper>
   );
 };

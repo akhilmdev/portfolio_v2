@@ -10,7 +10,7 @@ export const FooterWrapper = styled.div`
   justify-content: space-between;
   height: 22px;
   .icon {
-    margin: auto 5px;
+    margin: auto 10px;
     fill: var(--colors-footer-text);
     cursor: pointer;
     width: 14px;
@@ -37,4 +37,14 @@ export const TextWrapper = styled.span`
   margin-left: -4px;
 `;
 
-export const RightWrapper = styled.div``;
+export const RightWrapper = styled.div`
+  display: flex;
+`;
+
+export const LayoutWrapper = styled.div`
+  font-size: 12px;
+  display: flex;
+  margin: auto 10px;
+`;
+
+export const NotificationWrapper = styled.div``;
