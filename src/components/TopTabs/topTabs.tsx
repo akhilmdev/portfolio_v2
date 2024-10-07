@@ -3,20 +3,15 @@ import Close from "../../assets/icons/close.svg?react";
 import { IconMapper } from "../../config/iconMapper";
 import { useHorizontalScroll } from "../../hooks/useHorizontalScroll";
 
+interface topTabInterface {
+  text: string;
+  icon: any;
+}
+
 const TopTabs: React.FC = () => {
   const tabs = [
     { text: "welcome", icon: IconMapper["welcome"] },
     { text: "index.html", icon: IconMapper["html"] },
-    { text: "home.ts", icon: IconMapper["ts"] },
-    { text: "home.ts", icon: IconMapper["ts"] },
-    { text: "home.ts", icon: IconMapper["ts"] },
-    { text: "home.ts", icon: IconMapper["ts"] },
-    { text: "home.ts", icon: IconMapper["ts"] },
-    { text: "home.ts", icon: IconMapper["ts"] },
-    { text: "home.ts", icon: IconMapper["ts"] },
-    { text: "home.ts", icon: IconMapper["ts"] },
-    { text: "home.ts", icon: IconMapper["ts"] },
-    { text: "home.ts", icon: IconMapper["ts"] },
     { text: "home.ts", icon: IconMapper["ts"] },
     { text: "home.ts", icon: IconMapper["ts"] },
     { text: "home.ts", icon: IconMapper["ts"] },

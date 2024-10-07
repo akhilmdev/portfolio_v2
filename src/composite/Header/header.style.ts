@@ -19,7 +19,7 @@ export const LeftWrapper = styled.div``;
 
 export const SearchWrapper = styled.div`
   display: flex;
-  width: 30%;
+  width: 35%;
   margin: auto 0;
   color: var(--colors-header-text);
 `;

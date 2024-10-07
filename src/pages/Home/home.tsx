@@ -2,7 +2,7 @@ import Contents from "../../composite/Contents/contents";
 import Footer from "../../composite/Footer/footer";
 import Header from "../../composite/Header/header";
 import SideBar from "../../composite/SideBar/sideBar";
-import TopTabs from "../../composite/TopTabs/topTabs";
+import TopTabs from "../../components/TopTabs/topTabs";
 import { MainContent, RightWrapper } from "./home.style";
 
 const Home: React.FC = () => {
